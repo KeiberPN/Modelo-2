@@ -1,0 +1,99 @@
+.img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+
+}
+
+.img-circle{
+	height: 140px;
+	width: 140px;
+	background-image: url("../img/img_tarjeta.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#img-circle-0 {
+  background-image: url("../img/img-mision-blue.png");
+}
+
+#img-circle-1 {
+  background-image: url("../img/img-vision-blue.png");
+}
+
+#img-circle-2 {
+  background-image: url("../img/img-valores-blue.png");
+}
+
+
+.img-section{
+	display: flex;
+	height: 100%;
+	width: 100%;
+
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+
+.carousel-item {
+  height: 32rem;
+}
+
+.section .col-md-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section .col-md-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.section-divider {
+  margin: 5rem 0; 
+}
+
+.section-heading {
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .section-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .section-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+@media (max-width: 768px){
+
+	#header{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index: 1020;
+	}
+
+}
+
